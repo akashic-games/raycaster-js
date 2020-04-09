@@ -1,0 +1,50 @@
+{
+	"width": 640,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"brick": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/brick.png"
+		},
+		"soil": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/soil.png"
+		},
+		"stone": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/stone.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/raycaster-js/lib/Billboard.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Camera.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/FrameBuffer.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Fog.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Light.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Raycaster.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Texture.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/Tilemap.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/math/Vec2.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/math/Vec3.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/math/index.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/utils/index.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/index.js",
+		"node_modules/@akashic-extension/raycaster-js/package.json"
+	]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@akashic-extension/raycaster-js",
+  "version": "1.0.0",
+  "description": "Raycaster for Akashic Engine and also various JS 2D game engines",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
+    "build": "rimraf \"./lib/!(index.js|index.d.ts)\" && tsc -p ./tsconfig.json",
+    "clean": "rimraf ./lib",
+    "doc": "typedoc --out ./doc",
+    "test": "jest"
+  },
+  "author": "DWANGO Co., Ltd.",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files:": [
+    "lib",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.2.1",
+    "typedoc": "^0.16.11",
+    "typescript": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashic-games/raycaster-js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@akashic-extension:registry": "https://registry.npmjs.org/"
+  }
+}
