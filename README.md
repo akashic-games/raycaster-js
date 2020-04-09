@@ -2,9 +2,9 @@
 <img src="img/akashic.png"/>
 </p>
 
-# Akashic Raycaster
+# raycaster-js
 
-Akashic Raycaster は raycasting 法によってタイルマップを 3D 描画するソフトウェアレンダラーです。[Akashic Engine](https://akashic-games.github.io/)上での利用を念頭に開発されていますが、単体での利用も可能となっています。
+raycaster-js は raycasting 法によってタイルマップを 3D 描画するソフトウェアレンダラーです。[Akashic Engine](https://akashic-games.github.io/)上での利用を念頭に開発されていますが、単体での利用も可能となっています。
 
 ## 利用方法
 
