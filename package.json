@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "Raycaster for Akashic Engine and also various JS 2D game engines",
   "scripts": {
-    "prepublishOnly": "npm run build",
     "prepare": "npm run build",
     "build": "rimraf \"./lib/!(index.js|index.d.ts)\" && tsc -p ./tsconfig.json",
     "clean": "rimraf ./lib",
