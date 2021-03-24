@@ -6,7 +6,7 @@
     "prepare": "npm run build",
     "build": "rimraf \"./lib/!(index.js|index.d.ts)\" && tsc -p ./tsconfig.json",
     "clean": "rimraf ./lib",
-    "doc": "typedoc --out ./doc --gaID UA-162208211-1",
+    "doc": "typedoc --out ./doc",
     "test": "jest"
   },
   "author": "DWANGO Co., Ltd.",
