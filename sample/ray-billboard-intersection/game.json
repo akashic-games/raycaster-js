@@ -40,17 +40,19 @@
 	"globalScripts": [
 		"node_modules/@akashic-extension/raycaster-js/lib/Billboard.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Camera.js",
-		"node_modules/@akashic-extension/raycaster-js/lib/FrameBuffer.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Fog.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Light.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Raycaster.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Texture.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/Tilemap.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/index.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/math/Vec2.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/math/Vec3.js",
 		"node_modules/@akashic-extension/raycaster-js/lib/math/index.js",
-		"node_modules/@akashic-extension/raycaster-js/lib/utils/index.js",
-		"node_modules/@akashic-extension/raycaster-js/lib/index.js",
-		"node_modules/@akashic-extension/raycaster-js/package.json"
-	]
+		"node_modules/@akashic-extension/raycaster-js/lib/types.js",
+		"node_modules/@akashic-extension/raycaster-js/lib/utils/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/raycaster-js": "node_modules/@akashic-extension/raycaster-js/lib/index.js"
+	}
 }
