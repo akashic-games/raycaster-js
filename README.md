@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/akashic-games/raycaster-js/master/img/akashic.png">
+<img src="https://raw.githubusercontent.com/akashic-games/raycaster-js/master/img/akashic.png"/>
 </p>
 
 # raycaster-js
