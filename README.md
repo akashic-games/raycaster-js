@@ -1,5 +1,5 @@
 <p align="center">
-<img src="img/akashic.png"/>
+<img src="https://raw.githubusercontent.com/akashic-games/raycaster-js/master/img/akashic.png"/>
 </p>
 
 # raycaster-js
@@ -32,7 +32,7 @@ Akashic Engineの詳細な利用方法については、 [公式ページ](https
 
 ## APIリファレンス
 
-https://akashic-games.github.io/reference/raycaster-js/index.html
+https://akashic-games.github.io/raycaster-js/api/index.html
 
 ## ビルド方法
 

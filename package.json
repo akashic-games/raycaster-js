@@ -6,7 +6,7 @@
     "prepare": "npm run build",
     "build": "rimraf \"./lib/!(index.js|index.d.ts)\" && tsc -p ./tsconfig.json",
     "clean": "rimraf ./lib",
-    "doc": "typedoc --out ./doc",
+    "doc": "typedoc --out ./public/api src/index.ts",
     "test": "jest"
   },
   "author": "DWANGO Co., Ltd.",
@@ -18,12 +18,12 @@
     "package.json"
   ],
   "devDependencies": {
-    "@types/jest": "^25.1.4",
-    "jest": "^25.1.0",
+    "@types/jest": "^28.0.0",
+    "jest": "^28.0.2",
     "rimraf": "^3.0.2",
-    "ts-jest": "^25.2.1",
-    "typedoc": "^0.16.11",
-    "typescript": "^2.9.2"
+    "ts-jest": "^28.0.8",
+    "typedoc": "^0.23.14",
+    "typescript": "^4.8.2"
   },
   "repository": {
     "type": "git",

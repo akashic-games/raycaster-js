@@ -1,13 +1,9 @@
 node_modules
 .DS_Store*
-npm-debug.log
-*.iml
 coverage
-junitresults.xml
 typings
 lib
 tmp
-.idea
 \#*\#
 *.swp
-doc
+public
